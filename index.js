@@ -12,5 +12,4 @@ client.once(Events.ClientReady, c => {
 });
 
 // Log in to Discord with your client's token
-console.log(token);
-client.login(process.env.DISCORD_TOKEN);
+client.login(token);
